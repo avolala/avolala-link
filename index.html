@@ -60,14 +60,14 @@ footer a{color:var(--muted)}
   <button role="tab" data-t="cal" aria-selected="false">檔期日曆</button>
   <button role="tab" data-t="all" aria-selected="false">全部連結</button>
 </nav>
-<section id="now" class="on"></section>
-<section id="soon"></section>
-<section id="cal"></section>
-<section id="all"></section>
+<section id="p-now" class="on"></section>
+<section id="p-soon"></section>
+<section id="p-cal"></section>
+<section id="p-all"></section>
 <footer id="foot"></footer>
 </div>
 <script>
-const D = {"profile": {"name": "AVOLALA育兒頻道", "handle": "@avolala_select", "tagline": "團購商品請點下方連結", "email": "avolala1726@gmail.com"}, "social": [{"name": "Instagram", "url": "https://www.instagram.com/avolala_select"}, {"name": "官方 LINE", "url": "https://lin.ee/55lIYDJ"}, {"name": "LINE 社群", "url": "https://lin.ee/4tysQl6"}, {"name": "官網", "url": "https://www.avolala.com/"}], "shop": [{"name": "RICO baby濕紙巾", "url": "https://www.ricotw.com/xul1q5"}, {"name": "輕便推車", "url": "https://p4.groupbuyforms.tw/kb0cp"}, {"name": "Parakito法國帕洛 防蚊用品", "url": "https://p2.groupbuyforms.tw/mkm1h"}, {"name": "SiBRA無痕內衣褲", "url": "https://gbf.tw/1x4mh"}, {"name": "寶可夢相機", "url": "https://shop.labebe.tw/0ftg8"}, {"name": "Funny 三麗鷗兒童手機（相機/遊戲/拼圖/聽音樂）", "url": "https://shop.labebe.tw/qt2kw"}, {"name": "YABER 小影霸", "url": "https://enjoymentshops.com/IlSMk"}, {"name": "自拍棒", "url": "https://pickmebuy.com.tw/one/avolala%E9%81%B8%E5%93%81luvipod%E6%82%A0%E9%81%8A%E9%85%8D%E8%87%AA%E6%8B%8D%E8%85%B3%E6%9E%B6?rstrk=34c1250b38b291b80d3aee337f4d7996"}, {"name": "推車捲捲扇", "url": "https://guxon.my1shop.com/avolala_select"}, {"name": "🌟Roborock F25 ACE Pro / Ultra 旗艦洗地機", "url": "https://yoshikada.1shop-app.com/avolala_Roborock2"}, {"name": "🌟全自動奶瓶清洗機", "url": "https://yoshikada.1shop-app.com/avolala"}, {"name": "Arpha兒童牙刷出清🪥", "url": "https://yoshikada.1shop-app.com/avobaby"}, {"name": "✈️旅行配件組（折扣碼avolala88)", "url": "https://www.ekaxdesign.com/categories/avolala?sl-ref=avolala"}, {"name": "動物字卡&標籤機", "url": "https://www.avolala.com/one-page-stores/avolala-animals-card-1"}], "more": [{"name": "加入IG專區", "url": "https://www.instagram.com/channel/AbYperAz5Z-1Qd1f/"}, {"name": "蝦皮商品推薦", "url": "https://shpe.site/avolala"}, {"name": "eSIM 推薦", "url": "https://esimconnect.com.tw/#/access/esimbuy?referencecode=avolala_select"}, {"name": "Shopee ☺︎︎ 蝦皮", "url": "https://shopee.tw/indahmart"}, {"name": "Lıne ☺︎︎ 官方客服", "url": "https://lin.ee/pmJ7Uai"}], "events": [{"title": "Rico baby", "start": "2026-10-01", "end": "2026-10-06", "link": "https://www.ricotw.com/xul1q5", "loc": "", "note": ""}, {"title": "兔比媽咪", "start": "2026-10-01", "end": "2026-10-07", "link": null, "loc": "", "note": ""}, {"title": "初鹿保久乳", "start": "2026-10-01", "end": "2026-10-07", "link": null, "loc": "", "note": ""}], "built": "2026-10-02 20:50"};
+const D = {"profile": {"name": "AVOLALA育兒頻道", "handle": "@avolala_select", "tagline": "團購商品請點下方連結", "email": "avolala1726@gmail.com"}, "social": [{"name": "Instagram", "url": "https://www.instagram.com/avolala_select"}, {"name": "官方 LINE", "url": "https://lin.ee/55lIYDJ"}, {"name": "LINE 社群", "url": "https://lin.ee/4tysQl6"}, {"name": "官網", "url": "https://www.avolala.com/"}], "shop": [{"name": "RICO baby濕紙巾", "url": "https://www.ricotw.com/xul1q5"}, {"name": "輕便推車", "url": "https://p4.groupbuyforms.tw/kb0cp"}, {"name": "Parakito法國帕洛 防蚊用品", "url": "https://p2.groupbuyforms.tw/mkm1h"}, {"name": "SiBRA無痕內衣褲", "url": "https://gbf.tw/1x4mh"}, {"name": "寶可夢相機", "url": "https://shop.labebe.tw/0ftg8"}, {"name": "Funny 三麗鷗兒童手機（相機/遊戲/拼圖/聽音樂）", "url": "https://shop.labebe.tw/qt2kw"}, {"name": "YABER 小影霸", "url": "https://enjoymentshops.com/IlSMk"}, {"name": "自拍棒", "url": "https://pickmebuy.com.tw/one/avolala%E9%81%B8%E5%93%81luvipod%E6%82%A0%E9%81%8A%E9%85%8D%E8%87%AA%E6%8B%8D%E8%85%B3%E6%9E%B6?rstrk=34c1250b38b291b80d3aee337f4d7996"}, {"name": "推車捲捲扇", "url": "https://guxon.my1shop.com/avolala_select"}, {"name": "🌟Roborock F25 ACE Pro / Ultra 旗艦洗地機", "url": "https://yoshikada.1shop-app.com/avolala_Roborock2"}, {"name": "🌟全自動奶瓶清洗機", "url": "https://yoshikada.1shop-app.com/avolala"}, {"name": "Arpha兒童牙刷出清🪥", "url": "https://yoshikada.1shop-app.com/avobaby"}, {"name": "✈️旅行配件組（折扣碼avolala88)", "url": "https://www.ekaxdesign.com/categories/avolala?sl-ref=avolala"}, {"name": "動物字卡&標籤機", "url": "https://www.avolala.com/one-page-stores/avolala-animals-card-1"}], "more": [{"name": "加入IG專區", "url": "https://www.instagram.com/channel/AbYperAz5Z-1Qd1f/"}, {"name": "蝦皮商品推薦", "url": "https://shpe.site/avolala"}, {"name": "eSIM 推薦", "url": "https://esimconnect.com.tw/#/access/esimbuy?referencecode=avolala_select"}, {"name": "Shopee ☺︎︎ 蝦皮", "url": "https://shopee.tw/indahmart"}, {"name": "Lıne ☺︎︎ 官方客服", "url": "https://lin.ee/pmJ7Uai"}], "events": [{"title": "Rico baby", "start": "2026-10-01", "end": "2026-10-06", "link": "https://www.ricotw.com/xul1q5", "loc": "", "note": ""}, {"title": "兔比媽咪", "start": "2026-10-01", "end": "2026-10-07", "link": null, "loc": "", "note": ""}, {"title": "初鹿保久乳", "start": "2026-10-01", "end": "2026-10-07", "link": null, "loc": "", "note": ""}], "built": "2026-10-02 21:33"};
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const pad = n => String(n).padStart(2, '0');
@@ -82,8 +82,8 @@ $('#social').innerHTML = D.social.map(s => `<a class="pill" href="${esc(s.url)}"
 const card = (e, extra) => `<div class="card"><div class="t">${esc(e.title)}</div><div class="d">${span(e)}${extra || ''}</div>${e.note ? `<div class="n">${esc(e.note)}</div>` : ''}${e.link ? `<a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">前往團購</a>` : `<a class="btn off">連結整理中，請至 LINE 詢問</a>`}</div>`;
 const now = D.events.filter(e => e.start <= todayIso && todayIso <= e.end);
 const soon = D.events.filter(e => e.start > todayIso).sort((a, b) => a.start.localeCompare(b.start));
-$('#now').innerHTML = now.length ? now.map(e => card(e, '　還有 ' + diff(todayIso, e.end) + ' 天')).join('') : '<div class="empty">目前沒有進行中的團購<br>看看「即將開團」或下方「全部連結」</div>';
-$('#soon').innerHTML = soon.length ? soon.map(e => card(e, '　' + diff(todayIso, e.start) + ' 天後開跑')).join('') : '<div class="empty">目前沒有公告的即將開團</div>';
+$('#p-now').innerHTML = now.length ? now.map(e => card(e, '　還有 ' + diff(todayIso, e.end) + ' 天')).join('') : '<div class="empty">目前沒有進行中的團購<br>看看「即將開團」或下方「全部連結」</div>';
+$('#p-soon').innerHTML = soon.length ? soon.map(e => card(e, '　' + diff(todayIso, e.start) + ' 天後開跑')).join('') : '<div class="empty">目前沒有公告的即將開團</div>';
 
 let cur = new Date(); cur.setDate(1);
 function renderCal() {
@@ -99,19 +99,19 @@ function renderCal() {
       es.slice(0, 3).map(e => `<span class="chip ${colors[e.title]}">${esc(e.title)}</span>`).join('') + (es.length > 3 ? `<span class="chip">+${es.length - 3}</span>` : '') + '</div>';
   }
   h += '</div>';
-  $('#cal').innerHTML = h;
+  $('#p-cal').innerHTML = h;
   $('#pm').onclick = () => { cur.setMonth(cur.getMonth() - 1); renderCal(); };
   $('#nm').onclick = () => { cur.setMonth(cur.getMonth() + 1); renderCal(); };
 }
 renderCal();
 
 const lnk = a => a.map(l => `<a href="${esc(l.url)}" target="_blank" rel="noopener"><span>${esc(l.name)}</span></a>`).join('');
-$('#all').innerHTML = `<h2>團購商品</h2><div class="list">${lnk(D.shop)}</div>` + (D.more.length ? `<h2>其他推薦</h2><div class="list">${lnk(D.more)}</div>` : '');
+$('#p-all').innerHTML = `<h2>團購商品</h2><div class="list">${lnk(D.shop)}</div>` + (D.more.length ? `<h2>其他推薦</h2><div class="list">${lnk(D.more)}</div>` : '');
 $('#foot').innerHTML = `廠商合作：<a href="mailto:${esc(D.profile.email)}">${esc(D.profile.email)}</a><br>資料更新：${esc(D.built)}`;
 
 function showTab(t) {
   document.querySelectorAll('nav.tabs button').forEach(x => x.setAttribute('aria-selected', x.dataset.t === t));
-  document.querySelectorAll('section').forEach(s => s.classList.toggle('on', s.id === t));
+  document.querySelectorAll('section').forEach(s => s.classList.toggle('on', s.id === 'p-' + t));
 }
 document.querySelectorAll('nav.tabs button').forEach(b => b.onclick = () => { showTab(b.dataset.t); history.replaceState(null, '', '#' + b.dataset.t); });
 if (['now', 'soon', 'cal', 'all'].includes(location.hash.slice(1))) showTab(location.hash.slice(1));
