@@ -2,7 +2,7 @@
  "profile": {
   "name": "AVOLALA育兒頻道",
   "handle": "@avolala_select",
-  "tagline": "團購商品請點下方連結",
+  "tagline": "Avolala 育兒頻道・團購選品\n團購商品請點下方連結",
   "email": "avolala1726@gmail.com"
  },
  "social": [
@@ -79,6 +79,16 @@
   {
    "name": "動物字卡&標籤機",
    "url": "https://www.avolala.com/one-page-stores/avolala-animals-card-1"
+  },
+  {
+   "name": "兔比媽咪",
+   "url": "https://shop.labebe.tw/2u3jz",
+   "auto": true
+  },
+  {
+   "name": "台東初鹿保久乳",
+   "url": "https://gbf.tw/mnkzm",
+   "auto": true
   }
  ],
  "more": [
