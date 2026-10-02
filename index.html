@@ -4,69 +4,72 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>AVOLALA育兒頻道｜團購連結</title>
-<meta name="description" content="Avolala 團購連結、開團檔期、已結團客服資訊">
+<meta name="description" content="Avolala 團購行事曆、開團中、已結團客服資訊">
 <meta property="og:title" content="AVOLALA育兒頻道｜團購連結">
 <meta property="og:image" content="assets/logo.png">
 <style>
-:root{--bg:#f7f1e8;--card:#fffdf9;--ink:#4b3f38;--muted:#9b8d83;--line:#e9dccd;--rose:#e3b8a6;--butter:#efdcae;--slate:#9fb3ba;--terra:#c97b5d;--terra-d:#b46a4d;--pill:#f6e8bd;--shadow:0 8px 24px rgba(120,86,64,.10)}
+:root{--bg:#f7f1e8;--card:#fffdf9;--ink:#4b3f38;--muted:#9b8d83;--line:#e9dccd;--btn:#c97b5d;--btn-d:#b46a4d;--btnink:#fff;--pill:#f6e8bd;--pillink:#7a5c2e;--dot:#c97b5d;--accent:#c97b5d;--slate:#9fb3ba;
+--c0:#f6dfae;--c1:#f3d3c4;--c2:#d9e6cf;--c3:#d6dff0;--c4:#e6d6ea;--r:16px;--rb:10px;--serif:'Noto Serif TC','Songti TC','Hiragino Mincho ProN','PMingLiU',serif;--shadow:0 8px 24px rgba(120,86,64,.10)}
 *{box-sizing:border-box;margin:0;-webkit-tap-highlight-color:transparent}
 html{scroll-behavior:smooth}
 body{background:var(--bg);color:var(--ink);font:15px/1.65 -apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",sans-serif;padding-bottom:calc(36px + env(safe-area-inset-bottom))}
-.serif{font-family:"Noto Serif TC","Songti TC","Hiragino Mincho ProN","PMingLiU",serif}
+.serif{font-family:var(--serif)}
 .wrap{max-width:480px;margin:0 auto;padding:0 16px;overflow-x:clip}
-.cover{position:relative;height:210px;background:linear-gradient(180deg,#efe2d2,#f4e9db);overflow:hidden;margin:0 -16px}
-.cover svg{position:absolute;inset:0;width:100%;height:100%}
-.avatar{display:block;width:108px;height:108px;margin:-54px auto 0;position:relative;border-radius:50%;border:4px solid #fff;background:#fff;box-shadow:var(--shadow);object-fit:cover}
 .menu-btn{position:fixed;top:calc(12px + env(safe-area-inset-top));right:14px;z-index:30;width:42px;height:42px;border-radius:50%;border:0;background:rgba(255,253,249,.92);box-shadow:var(--shadow);font-size:18px;color:var(--ink);cursor:pointer}
 .menu{position:fixed;inset:0;z-index:40;background:rgba(75,63,56,.35);display:none}
 .menu.on{display:block}
 .menu nav{position:absolute;top:0;right:0;width:min(78vw,300px);height:100%;background:var(--card);padding:calc(24px + env(safe-area-inset-top)) 22px 24px;box-shadow:-10px 0 30px rgba(0,0,0,.12)}
 .menu a{display:block;padding:13px 4px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none;font-weight:600}
 .menu .x{display:block;margin:0 0 10px auto;border:0;background:none;font-size:22px;color:var(--muted);cursor:pointer}
-header{text-align:center;padding:16px 0 4px}
-h1{font-size:28px;font-weight:600;letter-spacing:.14em;margin-top:6px}
+header{text-align:center;padding:12px 0 4px}
+h1{font-size:26px;font-weight:600;letter-spacing:.14em;margin-top:6px}
 .handle{font-size:12px;letter-spacing:.28em;color:var(--muted);margin-top:2px}
-.rule{width:28px;height:1px;background:var(--muted);margin:14px auto;opacity:.6}
-.tag{font-size:14px;color:var(--ink);line-height:1.9}
-.social{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:16px 0 4px}
+.rule{width:28px;height:1px;background:var(--muted);margin:12px auto;opacity:.6}
+.tag{font-size:14px;line-height:1.9}
+.social{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0 4px}
 .chip{display:inline-block;padding:7px 16px;border-radius:999px;background:var(--card);border:1px solid var(--line);color:var(--ink);text-decoration:none;font-size:13px;font-weight:600}
-section{padding-top:40px;scroll-margin-top:14px}
+section{padding-top:38px;scroll-margin-top:14px}
 section[hidden]{display:none}
 h2{text-align:center;font-size:19px;font-weight:600;letter-spacing:.16em}
-.sub{text-align:center;color:var(--muted);font-size:13px;margin:2px 0 16px}
+h3{font-size:14px;letter-spacing:.14em;margin:18px 2px 8px;color:var(--muted);font-weight:600}
+.sub{text-align:center;color:var(--muted);font-size:13px;margin:2px 0 14px}
 .grid2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.deal{background:var(--card);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
-.deal .ph{aspect-ratio:4/3;background:linear-gradient(135deg,var(--butter),var(--rose));display:flex;align-items:center;justify-content:center;overflow:hidden}
+.deal{background:var(--card);border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.deal .ph{aspect-ratio:4/3;background:linear-gradient(135deg,var(--c0),var(--c1));display:flex;align-items:center;justify-content:center;overflow:hidden}
 .deal .ph img{width:100%;height:100%;object-fit:cover;display:block}
 .deal .ph .ini{font-size:40px;color:#fff;opacity:.85}
 .deal .bd{padding:12px 12px 14px;display:flex;flex-direction:column;gap:8px;flex:1}
 .deal .t{font-weight:600;font-size:14.5px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:2.9em}
-.pill{display:inline-flex;align-items:center;gap:5px;align-self:flex-start;background:var(--pill);color:#7a5c2e;border-radius:8px;padding:2px 9px;font-size:12px;font-weight:600}
-.pill:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--terra)}
-.btn{display:block;text-align:center;padding:10px 8px;border-radius:10px;background:var(--terra);color:#fff;text-decoration:none;font-weight:700;font-size:14px;margin-top:auto}
-.btn:active{background:var(--terra-d)}
+.pill{display:inline-flex;align-items:center;gap:5px;align-self:flex-start;background:var(--pill);color:var(--pillink);border-radius:8px;padding:2px 9px;font-size:12px;font-weight:600}
+.pill:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--dot)}
+.btn{display:block;text-align:center;padding:10px 8px;border-radius:var(--rb);background:var(--btn);color:var(--btnink);text-decoration:none;font-weight:700;font-size:14px;margin-top:auto}
+.btn:active{background:var(--btn-d)}
 .btn.off{background:#eadfd2;color:var(--muted);pointer-events:none}
-.empty{color:var(--muted);text-align:center;padding:26px 10px;background:var(--card);border:1px dashed var(--line);border-radius:16px;font-size:14px}
-.rows{background:var(--card);border-radius:16px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:12px}
+.empty{color:var(--muted);text-align:center;padding:26px 10px;background:var(--card);border:1px dashed var(--line);border-radius:var(--r);font-size:14px}
+.rows{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;margin-bottom:12px}
 .row{display:flex;align-items:center;gap:12px;padding:13px 14px;border-bottom:1px solid var(--line);color:var(--ink);text-decoration:none}
 .row:last-child{border-bottom:0}
-.row .d{flex:0 0 46px;font-weight:700;font-size:13px;color:var(--terra)}
+.row .d{flex:0 0 46px;font-weight:700;font-size:13px;color:var(--accent)}
 .row .n{flex:1;min-width:0;font-weight:600;font-size:14.5px}
 .row .go{color:var(--muted);font-size:13px;white-space:nowrap}
 .remind{flex:0 0 auto;background:var(--slate);color:#fff;border-radius:8px;padding:5px 11px;font-size:12.5px;font-weight:700;text-decoration:none}
 .more-btn{display:block;margin:4px auto 0;border:0;background:none;color:var(--muted);font-size:13px;cursor:pointer;padding:8px}
-details.mc{margin-top:14px}
-details.mc summary{cursor:pointer;color:var(--muted);font-size:13px;text-align:center;list-style:none;padding:6px}
-.ch{display:flex;align-items:center;justify-content:space-between;margin:10px 0 8px}
-.ch button{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:5px 13px;font-size:15px;color:var(--ink);cursor:pointer}
-.ch .m{font-weight:700}
-.grid7{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:3px}
-.dow{text-align:center;font-size:11px;color:var(--muted)}
-.cell{min-width:0;min-height:58px;background:var(--card);border:1px solid var(--line);border-radius:8px;padding:3px;overflow:hidden}
-.cell.out{opacity:.35}.cell.today{border-color:var(--terra);box-shadow:0 0 0 2px var(--terra) inset}
-.cell .dn{font-size:10.5px;color:var(--muted)}
-.cc{display:block;font-size:9.5px;line-height:1.25;border-radius:4px;padding:1px 3px;margin-top:2px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;background:#f6dfae}
-.cc.c1{background:#f3d3c4}.cc.c2{background:#d9e6cf}.cc.c3{background:#d6dff0}.cc.c4{background:#e6d6ea}
+/* 月曆（橫條，像 Jorte） */
+.mcal{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);padding:10px 8px 6px}
+.ch{display:flex;align-items:center;justify-content:space-between;margin:0 4px 8px}
+.ch button{border:1px solid var(--line);background:var(--card);border-radius:10px;padding:4px 13px;font-size:16px;color:var(--ink);cursor:pointer}
+.ch .m{font-weight:700;letter-spacing:.1em}
+.dow,.days,.bars{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
+.dow div{text-align:center;font-size:11px;color:var(--muted);padding-bottom:4px}
+.week{border-top:1px solid var(--line);background-image:linear-gradient(to right,transparent calc(100% - 1px),var(--line) 0);background-size:calc(100%/7) 100%}
+.week .d{padding:3px 5px 2px;font-size:11.5px;color:var(--muted)}
+.week .d.out{opacity:.35}
+.week .d b{display:inline-block;min-width:20px;height:20px;line-height:20px;text-align:center;border-radius:50%;font-weight:600}
+.week .d.today b{background:var(--accent);color:#fff}
+.bars{grid-auto-rows:21px;gap:2px 0;padding-bottom:6px;min-height:6px}
+.bar{margin:0 2px;padding:0 6px;font-size:11px;line-height:21px;border-radius:6px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#4b3f38}
+.bar.cl{margin-left:0;border-top-left-radius:0;border-bottom-left-radius:0}
+.bar.cr{margin-right:0;border-top-right-radius:0;border-bottom-right-radius:0}
 .ended .row{opacity:.92}
 .ended .n{color:#7d6f66;font-weight:500}
 .info{display:inline-flex;align-items:center;justify-content:center;width:18px;height:18px;border-radius:50%;border:1px solid var(--muted);color:var(--muted);font-size:11px;margin-left:6px;cursor:pointer;background:none}
@@ -74,54 +77,44 @@ details.mc summary{cursor:pointer;color:var(--muted);font-size:13px;text-align:c
 .note.on{display:block}
 .join{text-align:center}
 .join .big{display:flex;gap:10px}
-.join .big a{flex:1;padding:14px 8px;border-radius:12px;text-decoration:none;font-weight:700;color:#fff}
-.join .l{background:#7fb59a}.join .i{background:var(--terra)}
+.join .big a{flex:1;padding:14px 8px;border-radius:var(--rb);text-decoration:none;font-weight:700;color:#fff}
+.join .l{background:#7fb59a}.join .i{background:var(--btn)}
 footer{text-align:center;color:var(--muted);font-size:12px;margin-top:40px;line-height:1.9}
 footer a{color:var(--muted)}
+.fdeco{display:block;margin:0 auto 14px;max-width:70%}
 .toast{position:fixed;left:50%;bottom:calc(24px + env(safe-area-inset-bottom));transform:translateX(-50%);background:rgba(75,63,56,.94);color:#fff;border-radius:12px;padding:10px 16px;font-size:13px;z-index:50;display:none;max-width:86vw;text-align:center}
 .toast.on{display:block}
 @media(max-width:340px){.grid2{grid-template-columns:1fr}}
+
+:root{}
+
+.cover{position:relative;height:210px;background:linear-gradient(180deg,#efe2d2,#f4e9db);overflow:hidden;margin:0 -16px}
+.cover svg{position:absolute;inset:0;width:100%;height:100%}
+.avatar{display:block;width:108px;height:108px;margin:-54px auto 0;position:relative;border-radius:50%;border:4px solid #fff;background:#fff;box-shadow:var(--shadow);object-fit:cover}
 </style>
 </head>
 <body>
 <button class="menu-btn" id="mb" aria-label="選單">☰</button>
 <div class="menu" id="menu"><nav><button class="x" id="mx" aria-label="關閉">✕</button>
-  <a href="#top">首頁</a><a href="#now">限時團購中</a><a href="#long">長期團購</a><a href="#official">官網商品</a><a href="#cal">團購行事曆</a><a href="#ended">已結團找客服</a><a href="#join">加入社群</a></nav></div>
+  <a href="#top">首頁</a><a href="#cal">團購行事曆</a><a href="#now">限時團購中</a><a href="#long">長期團購</a><a href="#official">官網商品</a><a href="#ended">已結團找客服</a><a href="#join">加入社群</a></nav></div>
 <div class="wrap" id="top">
-  <div class="cover">
-    <svg viewBox="0 0 400 210" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
-      <g fill="none" stroke-linecap="butt">
-        <path d="M40 210 A160 160 0 0 1 360 210" stroke="#e3b8a6" stroke-width="30"/>
-        <path d="M70 210 A130 130 0 0 1 330 210" stroke="#efdcae" stroke-width="30"/>
-        <path d="M100 210 A100 100 0 0 1 300 210" stroke="#9fb3ba" stroke-width="30"/>
-      </g>
-      <g fill="#fffdf9" opacity=".9"><circle cx="48" cy="38" r="4"/><circle cx="352" cy="52" r="3"/><circle cx="332" cy="22" r="2.5"/><circle cx="72" cy="70" r="2.5"/></g>
-    </svg>
-  </div>
-  <img class="avatar" src="assets/logo.png" alt="Avolala" onerror="this.style.display='none'">
-  <header>
-    <h1 class="serif" id="name"></h1>
-    <div class="handle" id="handle"></div>
-    <div class="rule"></div>
-    <div class="tag" id="tag"></div>
-    <div class="social" id="social"></div>
-  </header>
-
+<div class="cover"><svg viewBox="0 0 400 210" preserveAspectRatio="xMidYMax slice" aria-hidden="true"><g fill="none"><path d="M40 210 A160 160 0 0 1 360 210" stroke="#e3b8a6" stroke-width="30"/><path d="M70 210 A130 130 0 0 1 330 210" stroke="#efdcae" stroke-width="30"/><path d="M100 210 A100 100 0 0 1 300 210" stroke="#9fb3ba" stroke-width="30"/></g><g fill="#fffdf9" opacity=".9"><circle cx="48" cy="38" r="4"/><circle cx="352" cy="52" r="3"/><circle cx="332" cy="22" r="2.5"/><circle cx="72" cy="70" r="2.5"/></g></svg></div>
+<img class="avatar" src="assets/logo.png" alt="Avolala" onerror="this.style.display='none'"><header><h1 class="serif" id="name"></h1><div class="handle" id="handle"></div><div class="rule"></div><div class="tag" id="tag"></div><div class="social" id="social"></div></header>
+  <section id="cal"><h2 class="serif">團購行事曆</h2><p class="sub">一眼看完這個月的開團檔期</p>
+    <div id="month"></div><h3>即將開團</h3><div id="calBox"></div></section>
   <section id="now"><h2 class="serif">限時團購中</h2><p class="sub">現在開團中，想買的別錯過</p><div id="nowBox"></div></section>
   <section id="long" hidden><h2 class="serif">長期團購</h2><p class="sub">常駐好物，想買隨時可以下單</p><div class="rows" id="longBox"></div></section>
   <section id="official" hidden><h2 class="serif">Avolala 官網商品</h2><p class="sub">在 Avolala 官網購買</p><div id="officialBox"></div></section>
-  <section id="cal"><h2 class="serif">團購行事曆</h2><p class="sub">按「設提醒」，開團那天提醒你</p><div id="calBox"></div>
-    <details class="mc" id="mc"><summary>月曆檢視 ▾</summary><div id="month"></div></details></section>
   <section id="ended" hidden><h2 class="serif">已結團找客服 <button class="info" id="inf" aria-label="說明">i</button></h2><p class="sub">團購結束後，連結保留供查詢廠商客服資訊</p>
     <div class="note" id="infNote">團購已結束。若有訂單或商品問題，請透過各團購頁面上的廠商客服聯絡。</div>
     <div class="rows ended" id="endedBox"></div></section>
   <section id="join" class="join"><h2 class="serif">加入社群</h2><p class="sub">最新團購資訊，第一時間通知你</p><div class="big" id="joinBox"></div></section>
   <section id="more" hidden><h2 class="serif">更多推薦</h2><div class="rows" id="moreBox" style="margin-top:14px"></div></section>
-  <footer id="foot"></footer>
+  <footer><div id="foot"></div></footer>
 </div>
 <div class="toast" id="toast"></div>
 <script>
-const D = {"profile": {"name": "AVOLALA育兒頻道", "handle": "@avolala_select", "tagline": "Avolala 育兒頻道・團購選品\n團購商品請點下方連結", "email": "avolala1726@gmail.com"}, "social": [{"name": "Instagram", "url": "https://www.instagram.com/avolala_select"}, {"name": "官方 LINE", "url": "https://lin.ee/55lIYDJ"}, {"name": "LINE 社群", "url": "https://lin.ee/4tysQl6"}, {"name": "官網", "url": "https://www.avolala.com/"}], "shop": [{"name": "RICO baby濕紙巾", "url": "https://www.ricotw.com/xul1q5"}, {"name": "輕便推車", "url": "https://p4.groupbuyforms.tw/kb0cp", "featured": true, "cover": "assets/deals/stroller.jpg", "feat_order": 0}, {"name": "Parakito法國帕洛 防蚊用品", "url": "https://p2.groupbuyforms.tw/mkm1h", "featured": true, "cover": "assets/deals/parakito.jpg", "feat_order": 1}, {"name": "SiBRA無痕內衣褲", "url": "https://gbf.tw/1x4mh", "featured": true, "cover": "assets/deals/sibra.jpg", "feat_order": 2}, {"name": "寶可夢相機", "url": "https://shop.labebe.tw/0ftg8", "ended": "2026-10-03", "event": ""}, {"name": "Funny 三麗鷗兒童手機（相機/遊戲/拼圖/聽音樂）", "url": "https://shop.labebe.tw/qt2kw", "ended": "2026-10-03", "event": ""}, {"name": "YABER 小影霸", "url": "https://enjoymentshops.com/IlSMk"}, {"name": "自拍棒", "url": "https://pickmebuy.com.tw/one/avolala%E9%81%B8%E5%93%81luvipod%E6%82%A0%E9%81%8A%E9%85%8D%E8%87%AA%E6%8B%8D%E8%85%B3%E6%9E%B6?rstrk=34c1250b38b291b80d3aee337f4d7996"}, {"name": "推車捲捲扇", "url": "https://guxon.my1shop.com/avolala_select"}, {"name": "🌟Roborock F25 ACE Pro / Ultra 旗艦洗地機", "url": "https://yoshikada.1shop-app.com/avolala_Roborock2"}, {"name": "🌟全自動奶瓶清洗機", "url": "https://yoshikada.1shop-app.com/avolala"}, {"name": "Arpha兒童牙刷出清🪥", "url": "https://yoshikada.1shop-app.com/avobaby"}, {"name": "✈️旅行配件組（折扣碼avolala88)", "url": "https://www.ekaxdesign.com/categories/avolala?sl-ref=avolala"}, {"name": "動物字卡&標籤機", "url": "https://www.avolala.com/one-page-stores/avolala-animals-card-1", "section": "official", "cover": "assets/deals/animals.jpg"}, {"name": "兔比媽咪", "url": "https://shop.labebe.tw/2u3jz", "auto": true}, {"name": "台東初鹿保久乳", "url": "https://gbf.tw/mnkzm", "auto": true}], "more": [{"name": "加入IG專區", "url": "https://www.instagram.com/channel/AbYperAz5Z-1Qd1f/"}, {"name": "蝦皮商品推薦", "url": "https://shpe.site/avolala"}, {"name": "eSIM 推薦", "url": "https://esimconnect.com.tw/#/access/esimbuy?referencecode=avolala_select"}, {"name": "Shopee ☺︎︎ 蝦皮", "url": "https://shopee.tw/indahmart"}, {"name": "Lıne ☺︎︎ 官方客服", "url": "https://lin.ee/pmJ7Uai"}], "events": [{"title": "Rico baby", "start": "2026-10-01", "end": "2026-10-06", "link": "https://www.ricotw.com/xul1q5", "cover": "assets/deals/rico.jpg"}, {"title": "兔比媽咪", "start": "2026-10-01", "end": "2026-10-07", "link": "https://shop.labebe.tw/2u3jz", "cover": "assets/deals/tobi.jpg"}, {"title": "初鹿保久乳", "start": "2026-10-01", "end": "2026-10-07", "link": "https://gbf.tw/mnkzm", "cover": "assets/deals/chulu.jpg"}, {"title": "享居", "start": "2026-10-05", "end": "2026-10-12", "link": null, "cover": null}, {"title": "Evorie", "start": "2026-10-12", "end": "2026-10-18", "link": null, "cover": null}, {"title": "午安枕", "start": "2026-10-19", "end": "2026-10-26", "link": null, "cover": null}, {"title": "Emi's select", "start": "2026-10-23", "end": "2026-10-28", "link": null, "cover": null}, {"title": "地墊", "start": "2026-11-06", "end": "2026-11-07", "link": null, "cover": null}], "built": "2026-10-03 00:21"};
+const D = {"profile": {"name": "AVOLALA育兒頻道", "handle": "@avolala_select", "tagline": "Avolala 育兒頻道・團購選品\n團購商品請點下方連結", "email": "avolala1726@gmail.com"}, "social": [{"name": "Instagram", "url": "https://www.instagram.com/avolala_select"}, {"name": "官方 LINE", "url": "https://lin.ee/55lIYDJ"}, {"name": "LINE 社群", "url": "https://lin.ee/4tysQl6"}, {"name": "官網", "url": "https://www.avolala.com/"}], "shop": [{"name": "RICO baby濕紙巾", "url": "https://www.ricotw.com/xul1q5"}, {"name": "輕便推車", "url": "https://p4.groupbuyforms.tw/kb0cp", "featured": true, "cover": "assets/deals/stroller.jpg", "feat_order": 0}, {"name": "Parakito法國帕洛 防蚊用品", "url": "https://p2.groupbuyforms.tw/mkm1h", "featured": true, "cover": "assets/deals/parakito.jpg", "feat_order": 1}, {"name": "SiBRA無痕內衣褲", "url": "https://gbf.tw/1x4mh", "featured": true, "cover": "assets/deals/sibra.jpg", "feat_order": 2}, {"name": "寶可夢相機", "url": "https://shop.labebe.tw/0ftg8", "ended": "2026-10-03", "event": ""}, {"name": "Funny 三麗鷗兒童手機（相機/遊戲/拼圖/聽音樂）", "url": "https://shop.labebe.tw/qt2kw", "ended": "2026-10-03", "event": ""}, {"name": "YABER 小影霸", "url": "https://enjoymentshops.com/IlSMk"}, {"name": "自拍棒", "url": "https://pickmebuy.com.tw/one/avolala%E9%81%B8%E5%93%81luvipod%E6%82%A0%E9%81%8A%E9%85%8D%E8%87%AA%E6%8B%8D%E8%85%B3%E6%9E%B6?rstrk=34c1250b38b291b80d3aee337f4d7996"}, {"name": "推車捲捲扇", "url": "https://guxon.my1shop.com/avolala_select"}, {"name": "🌟Roborock F25 ACE Pro / Ultra 旗艦洗地機", "url": "https://yoshikada.1shop-app.com/avolala_Roborock2"}, {"name": "🌟全自動奶瓶清洗機", "url": "https://yoshikada.1shop-app.com/avolala"}, {"name": "Arpha兒童牙刷出清🪥", "url": "https://yoshikada.1shop-app.com/avobaby"}, {"name": "✈️旅行配件組（折扣碼avolala88)", "url": "https://www.ekaxdesign.com/categories/avolala?sl-ref=avolala"}, {"name": "動物字卡&標籤機", "url": "https://www.avolala.com/one-page-stores/avolala-animals-card-1", "section": "official", "cover": "assets/deals/animals.jpg"}, {"name": "兔比媽咪", "url": "https://shop.labebe.tw/2u3jz", "auto": true}, {"name": "台東初鹿保久乳", "url": "https://gbf.tw/mnkzm", "auto": true}], "more": [{"name": "加入IG專區", "url": "https://www.instagram.com/channel/AbYperAz5Z-1Qd1f/"}, {"name": "蝦皮商品推薦", "url": "https://shpe.site/avolala"}, {"name": "eSIM 推薦", "url": "https://esimconnect.com.tw/#/access/esimbuy?referencecode=avolala_select"}, {"name": "Shopee ☺︎︎ 蝦皮", "url": "https://shopee.tw/indahmart"}, {"name": "Lıne ☺︎︎ 官方客服", "url": "https://lin.ee/pmJ7Uai"}], "events": [{"title": "Rico baby", "start": "2026-10-01", "end": "2026-10-06", "link": "https://www.ricotw.com/xul1q5", "cover": "assets/deals/rico.jpg"}, {"title": "兔比媽咪", "start": "2026-10-01", "end": "2026-10-07", "link": "https://shop.labebe.tw/2u3jz", "cover": "assets/deals/tobi.jpg"}, {"title": "初鹿保久乳", "start": "2026-10-01", "end": "2026-10-07", "link": "https://gbf.tw/mnkzm", "cover": "assets/deals/chulu.jpg"}, {"title": "享居", "start": "2026-10-05", "end": "2026-10-12", "link": null, "cover": null}, {"title": "Evorie", "start": "2026-10-12", "end": "2026-10-18", "link": null, "cover": null}, {"title": "午安枕", "start": "2026-10-19", "end": "2026-10-26", "link": null, "cover": null}, {"title": "Emi's select", "start": "2026-10-23", "end": "2026-10-28", "link": null, "cover": null}, {"title": "地墊", "start": "2026-11-06", "end": "2026-11-07", "link": null, "cover": null}], "built": "2026-10-03 00:33"};
 const $ = s => document.querySelector(s);
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const pad = n => String(n).padStart(2, '0');
@@ -133,27 +126,35 @@ $('#name').textContent = D.profile.name; $('#handle').textContent = D.profile.ha
 $('#tag').innerHTML = esc(D.profile.tagline).replace(/\n/g, '<br>');
 $('#social').innerHTML = D.social.map(s => `<a class="chip" href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join('');
 
-// 限時團購中：卡片（只顯示「開團中」，不顯示結團日）
-const nowEv = D.events.filter(e => e.start <= todayIso && todayIso <= e.end);
-const usedUrls = new Set(nowEv.map(e => e.link).filter(Boolean));
-const card = e => `<div class="deal"><div class="ph">${e.cover ? `<img src="${esc(e.cover)}" alt="${esc(e.title)}" loading="lazy">` : `<span class="ini serif">${esc(e.title.trim().charAt(0))}</span>`}</div>
-  <div class="bd"><div class="t">${esc(e.title)}</div><span class="pill">開團中</span>
-  ${e.link ? `<a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">前往購買 →</a>` : `<a class="btn off">連結整理中</a>`}</div></div>`;
-const feat = D.shop.filter(l => l.featured && !l.ended && !usedUrls.has(l.url)).sort((a, b) => (a.feat_order || 0) - (b.feat_order || 0))
-  .map(l => ({ title: l.name, link: l.url, cover: l.cover }));
-const allCards = nowEv.concat(feat);
-$('#nowBox').innerHTML = allCards.length ? `<div class="grid2">${allCards.map(card).join('')}</div>` : '<div class="empty">目前沒有進行中的限時團購<br>看看下方「團購行事曆」或「長期團購」</div>';
+/* ── 團購行事曆：月曆（橫條） ── */
+let cur = new Date(); cur.setDate(1);
+const colorOf = {}; { let ci = 0; D.events.forEach(e => { if (!(e.title in colorOf)) colorOf[e.title] = 'c' + (ci++ % 5); }); }
+function renderMonth() {
+  const y = cur.getFullYear(), m = cur.getMonth(), first = new Date(y, m, 1), start = new Date(y, m, 1 - first.getDay());
+  let h = `<div class="mcal"><div class="ch"><button id="pm" aria-label="上個月">‹</button><div class="m">${y} 年 ${m + 1} 月</div><button id="nm" aria-label="下個月">›</button></div>`;
+  h += '<div class="dow">' + '日一二三四五六'.split('').map(d => `<div>${d}</div>`).join('') + '</div>';
+  for (let w = 0; w < 6; w++) {
+    const ws = new Date(start); ws.setDate(start.getDate() + w * 7);
+    if (w >= 5 && ws.getMonth() !== m) break;
+    const days = [...Array(7)].map((_, i) => { const d = new Date(ws); d.setDate(ws.getDate() + i); return d; });
+    const keys = days.map(iso);
+    const segs = D.events.filter(e => e.end >= keys[0] && e.start <= keys[6]).map(e => {
+      let s = keys.findIndex(k => k >= e.start); if (s < 0) s = 0;
+      let t = 6; for (let i = 6; i >= 0; i--) { if (keys[i] <= e.end) { t = i; break; } }
+      return { e, s, t, cl: e.start < keys[0], cr: e.end > keys[6] };
+    }).sort((a, b) => a.s - b.s || (b.t - b.s) - (a.t - a.s));
+    const lanes = [];
+    segs.forEach(sg => { let L = lanes.findIndex(end => end < sg.s); if (L < 0) { L = lanes.length; lanes.push(-1); } lanes[L] = sg.t; sg.L = L; });
+    h += `<div class="week"><div class="days">${days.map(d => `<div class="d${d.getMonth() !== m ? ' out' : ''}${iso(d) === todayIso ? ' today' : ''}"><b>${d.getDate()}</b></div>`).join('')}</div>` +
+      `<div class="bars">${segs.map(sg => `<div class="bar ${colorOf[sg.e.title]}${sg.cl ? ' cl' : ''}${sg.cr ? ' cr' : ''}" style="grid-column:${sg.s + 1}/${sg.t + 2};grid-row:${sg.L + 1};background:var(--${colorOf[sg.e.title]})" title="${esc(sg.e.title)}">${esc(sg.e.title)}</div>`).join('')}</div></div>`;
+  }
+  $('#month').innerHTML = h + '</div>';
+  $('#pm').onclick = () => { cur.setMonth(cur.getMonth() - 1); renderMonth(); };
+  $('#nm').onclick = () => { cur.setMonth(cur.getMonth() + 1); renderMonth(); };
+}
+renderMonth();
 
-// 長期團購：沒有被限時卡片用到、也沒結團的團購連結
-const longList = D.shop.filter(l => !l.ended && !l.featured && l.section !== 'official' && !usedUrls.has(l.url));
-const officialList = D.shop.filter(l => !l.ended && l.section === 'official');
-if (longList.length) { $('#long').hidden = false; $('#longBox').innerHTML = longList.map(l => `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener"><span class="n">${esc(l.name)}</span><span class="go">前往 →</span></a>`).join(''); }
-
-const offCard = l => `<div class="deal"><div class="ph">${l.cover ? `<img src="${esc(l.cover)}" alt="${esc(l.name)}" loading="lazy">` : `<span class="ini serif">${esc(l.name.trim().charAt(0))}</span>`}</div>
-  <div class="bd"><div class="t">${esc(l.name)}</div><span class="pill">官網販售</span><a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">前往官網 →</a></div></div>`;
-if (officialList.length) { $('#official').hidden = false; $('#officialBox').innerHTML = `<div class="grid2">${officialList.map(offCard).join('')}</div>`; }
-
-// 團購行事曆：即將開團（只顯示開跑日）＋設提醒（.ics）
+/* 即將開團清單（只顯示開跑日）＋設提醒（.ics） */
 const up = D.events.filter(e => e.start > todayIso).sort((a, b) => a.start.localeCompare(b.start));
 const ymd = s => s.replace(/-/g, '');
 const nextDay = s => { const d = new Date(s + 'T00:00'); d.setDate(d.getDate() + 1); return iso(d).replace(/-/g, ''); };
@@ -173,42 +174,33 @@ function renderUp(all) {
 renderUp(false);
 document.addEventListener('click', ev => { if (ev.target.closest('[data-remind]')) toast('請在跳出的畫面按「加入」，開團那天早上會提醒你'); });
 
-// 月曆檢視（折疊）
-let cur = new Date(); cur.setDate(1);
-function renderMonth() {
-  const y = cur.getFullYear(), m = cur.getMonth(), first = new Date(y, m, 1), start = new Date(y, m, 1 - first.getDay());
-  const colors = {}; let ci = 0; D.events.forEach(e => { if (!(e.title in colors)) colors[e.title] = 'c' + (ci++ % 5); });
-  let h = `<div class="ch"><button id="pm">‹</button><div class="m">${y} 年 ${m + 1} 月</div><button id="nm">›</button></div><div class="grid7">`;
-  '日一二三四五六'.split('').forEach(d => h += `<div class="dow">${d}</div>`);
-  for (let i = 0; i < 42; i++) {
-    const d = new Date(start); d.setDate(start.getDate() + i); const k = iso(d);
-    if (i >= 35 && d.getMonth() !== m) break;
-    const es = D.events.filter(e => e.start <= k && k <= e.end);
-    h += `<div class="cell${d.getMonth() !== m ? ' out' : ''}${k === todayIso ? ' today' : ''}"><div class="dn">${d.getDate()}</div>` +
-      es.slice(0, 3).map(e => `<span class="cc ${colors[e.title]}">${esc(e.title)}</span>`).join('') + (es.length > 3 ? `<span class="cc">+${es.length - 3}</span>` : '') + '</div>';
-  }
-  $('#month').innerHTML = h + '</div>';
-  $('#pm').onclick = () => { cur.setMonth(cur.getMonth() - 1); renderMonth(); };
-  $('#nm').onclick = () => { cur.setMonth(cur.getMonth() + 1); renderMonth(); };
-}
-renderMonth();
+/* ── 限時團購中（卡片，只顯示「開團中」） ── */
+const nowEv = D.events.filter(e => e.start <= todayIso && todayIso <= e.end);
+const usedUrls = new Set(nowEv.map(e => e.link).filter(Boolean));
+const card = e => `<div class="deal"><div class="ph">${e.cover ? `<img src="${esc(e.cover)}" alt="${esc(e.title)}" loading="lazy">` : `<span class="ini serif">${esc(e.title.trim().charAt(0))}</span>`}</div>
+  <div class="bd"><div class="t">${esc(e.title)}</div><span class="pill">開團中</span>
+  ${e.link ? `<a class="btn" href="${esc(e.link)}" target="_blank" rel="noopener">前往購買 →</a>` : `<a class="btn off">連結整理中</a>`}</div></div>`;
+const feat = D.shop.filter(l => l.featured && !l.ended && !usedUrls.has(l.url)).sort((a, b) => (a.feat_order || 0) - (b.feat_order || 0)).map(l => ({ title: l.name, link: l.url, cover: l.cover }));
+const allCards = nowEv.concat(feat);
+$('#nowBox').innerHTML = allCards.length ? `<div class="grid2">${allCards.map(card).join('')}</div>` : '<div class="empty">目前沒有進行中的限時團購<br>看看上方「團購行事曆」或下方「長期團購」</div>';
 
-// 已結團找客服
+const longList = D.shop.filter(l => !l.ended && !l.featured && l.section !== 'official' && !usedUrls.has(l.url));
+const officialList = D.shop.filter(l => !l.ended && l.section === 'official');
+if (longList.length) { $('#long').hidden = false; $('#longBox').innerHTML = longList.map(l => `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener"><span class="n">${esc(l.name)}</span><span class="go">前往 →</span></a>`).join(''); }
+const offCard = l => `<div class="deal"><div class="ph">${l.cover ? `<img src="${esc(l.cover)}" alt="${esc(l.name)}" loading="lazy">` : `<span class="ini serif">${esc(l.name.trim().charAt(0))}</span>`}</div>
+  <div class="bd"><div class="t">${esc(l.name)}</div><span class="pill">官網販售</span><a class="btn" href="${esc(l.url)}" target="_blank" rel="noopener">前往官網 →</a></div></div>`;
+if (officialList.length) { $('#official').hidden = false; $('#officialBox').innerHTML = `<div class="grid2">${officialList.map(offCard).join('')}</div>`; }
+
 const endedList = D.shop.filter(l => l.ended);
 if (endedList.length) { $('#ended').hidden = false; $('#endedBox').innerHTML = endedList.map(l => `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener"><span class="n">${esc(l.name)}</span><span class="go">已結團・找客服 →</span></a>`).join(''); }
 $('#inf').onclick = () => $('#infNote').classList.toggle('on');
 
-// 加入社群
 const find = k => D.social.find(s => s.name.includes(k));
 const jl = find('社群'), ji = find('Instagram');
 $('#joinBox').innerHTML = (jl ? `<a class="l" href="${esc(jl.url)}" target="_blank" rel="noopener">LINE 社群</a>` : '') + (ji ? `<a class="i" href="${esc(ji.url)}" target="_blank" rel="noopener">Instagram</a>` : '');
-
-// 更多推薦
 if (D.more.length) { $('#more').hidden = false; $('#moreBox').innerHTML = D.more.map(l => `<a class="row" href="${esc(l.url)}" target="_blank" rel="noopener"><span class="n">${esc(l.name)}</span><span class="go">前往 →</span></a>`).join(''); }
-
 $('#foot').innerHTML = `廠商合作：<a href="mailto:${esc(D.profile.email)}">${esc(D.profile.email)}</a><br>© ${new Date().getFullYear()} Avolala　資料更新：${esc(D.built)}`;
 
-// 選單、提示
 const menu = $('#menu');
 $('#mb').onclick = () => menu.classList.add('on'); $('#mx').onclick = () => menu.classList.remove('on');
 menu.onclick = e => { if (e.target === menu || e.target.tagName === 'A') menu.classList.remove('on'); };
