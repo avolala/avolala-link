@@ -30,23 +30,38 @@
   },
   {
    "name": "輕便推車",
-   "url": "https://p4.groupbuyforms.tw/kb0cp"
+   "url": "https://p4.groupbuyforms.tw/kb0cp",
+   "featured": true,
+   "cover": "assets/deals/stroller.jpg",
+   "feat_order": 0
   },
   {
    "name": "Parakito法國帕洛 防蚊用品",
-   "url": "https://p2.groupbuyforms.tw/mkm1h"
+   "url": "https://p2.groupbuyforms.tw/mkm1h",
+   "featured": true,
+   "cover": "assets/deals/parakito.jpg",
+   "feat_order": 1
   },
   {
    "name": "SiBRA無痕內衣褲",
-   "url": "https://gbf.tw/1x4mh"
+   "url": "https://gbf.tw/1x4mh",
+   "featured": true,
+   "cover": "assets/deals/sibra.jpg",
+   "feat_order": 2
   },
   {
    "name": "寶可夢相機",
-   "url": "https://shop.labebe.tw/0ftg8"
+   "url": "https://shop.labebe.tw/0ftg8",
+   "featured": true,
+   "cover": "assets/deals/pokemon.jpg",
+   "feat_order": 3
   },
   {
    "name": "Funny 三麗鷗兒童手機（相機/遊戲/拼圖/聽音樂）",
-   "url": "https://shop.labebe.tw/qt2kw"
+   "url": "https://shop.labebe.tw/qt2kw",
+   "featured": true,
+   "cover": "assets/deals/funny.jpg",
+   "feat_order": 4
   },
   {
    "name": "YABER 小影霸",
