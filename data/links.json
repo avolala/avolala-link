@@ -38,16 +38,18 @@
   {
    "name": "Parakito法國帕洛 防蚊用品",
    "url": "https://p2.groupbuyforms.tw/mkm1h",
-   "featured": true,
    "cover": "assets/deals/parakito.jpg",
-   "feat_order": 1
+   "feat_order": 1,
+   "ended": "2026-10-12",
+   "event": ""
   },
   {
    "name": "SiBRA無痕內衣褲",
    "url": "https://gbf.tw/1x4mh",
-   "featured": true,
    "cover": "assets/deals/sibra.jpg",
-   "feat_order": 2
+   "feat_order": 2,
+   "ended": "2026-10-12",
+   "event": ""
   },
   {
    "name": "寶可夢相機",
@@ -107,7 +109,9 @@
   },
   {
    "name": "享居-大人大童系列",
-   "url": "https://gbf.tw/hlbyc"
+   "url": "https://gbf.tw/hlbyc",
+   "ended": "2026-10-12",
+   "event": ""
   },
   {
    "name": "Chicco 汽座 × Munchkin 外出系列",
