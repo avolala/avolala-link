@@ -1,11 +1,5 @@
 [
  {
-  "title": "兔比",
-  "url": "https://www.instagram.com/reel/DNcD4ZCz6ea/",
-  "thumb": "assets/reels/18072632438042663.jpg",
-  "kind": "reel"
- },
- {
   "title": "Evorie",
   "url": "https://www.instagram.com/reel/DeXNBw9olyI/",
   "thumb": "assets/reels/17948970489300459.jpg",
@@ -22,5 +16,11 @@
   "url": "https://www.instagram.com/reel/C9yo1h3v3jI/",
   "thumb": "assets/reels/18271752046240210.jpg",
   "kind": "reel"
+ },
+ {
+  "title": "午睡枕",
+  "url": "https://www.instagram.com/p/Dcn6vXMGH9-/",
+  "thumb": "assets/reels/18084714164413089.jpg",
+  "kind": "post"
  }
 ]
